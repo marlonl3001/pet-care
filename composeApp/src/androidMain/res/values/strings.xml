@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pet Care</string>
+
+    <array name="onboarding_images">
+        <item>@drawable/img_welcome</item>
+        <item>@drawable/img_appointments</item>
+        <item>@drawable/img_vaccine</item>
+        <item>@drawable/img_pet_scanning</item>
+    </array>
+
+    <string-array name="onboarding_titles">
+        <item>Bem-vindo ao Pet Care</item>
+        <item>Agenda de consultas</item>
+        <item>Carteira de vacinação</item>
+        <item>Fácil acesso aos históricos</item>
+    </string-array>
+
+    <string-array name="onboarding_descriptions">
+        <item>Deixe todas as informações de seus pets armazenadas em um só lugar</item>
+        <item>Acompanhe o histórico de consultas realizadas e agendadas de seus pets</item>
+        <item>De adeus aos papéis e controle as vacinas de seus pets de forma rápida e fácil</item>
+        <item>Seu veterinário tem acesso à todas as informações de seus pets apenas com a leitura de um QR Code</item>
+    </string-array>
+</resources>

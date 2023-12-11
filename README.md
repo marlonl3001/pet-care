@@ -1,5 +1,7 @@
-# pet-care
-Application created using Kotlin Multiplatform, wich consists of a single project with backend, frontend, iOS and Android applications, builded using Compose Multiplatform for UI screens.
+# Pet Care
+![pet_care](https://github.com/marlonl3001/pet-care/assets/6325593/3dff560d-4e1a-4a53-ae33-7975d25168ff)
+
+This application is being created using Kotlin Multiplatform, wich consists of a single project with backend, frontend, iOS and Android applications, builded using Compose Multiplatform for UI screens.
 
 This is a Kotlin Multiplatform project targeting Android, iOS, Server.
 

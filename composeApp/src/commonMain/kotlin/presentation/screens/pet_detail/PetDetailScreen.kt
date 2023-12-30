@@ -45,7 +45,6 @@ import presentation.screens.home.careTypes
 import presentation.screens.home.getPets
 import ui.theme.CARD_ELEVATION
 import ui.theme.EXTRA_LARGE_PADDING
-import ui.theme.EXTRA_SMALL_PADDING
 import ui.theme.LARGE_PADDING
 import ui.theme.MEDIUM_PADDING
 import ui.theme.SMALL_PADDING
@@ -71,7 +70,7 @@ fun PetDetailScreen(navigator: Navigator) {
                 contentColor = Color.White,
                 shape = CircleShape,
                 onClick = {
-                    navigator.navigate("pet_detail_menu")
+                    navigator.navigate(Screen.PetDetailMenu.route)
                 }
             ) {
                 Icon(

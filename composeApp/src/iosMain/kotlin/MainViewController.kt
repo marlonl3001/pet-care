@@ -1,4 +1,4 @@
 import androidx.compose.ui.window.ComposeUIViewController
-import presentation.screens.onboarding.Onboarding
+import presentation.App
 
-fun MainViewController() = ComposeUIViewController { Onboarding() }
+fun MainViewController() = ComposeUIViewController { App() }

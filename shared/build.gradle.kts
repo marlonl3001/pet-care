@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
+
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
@@ -7,9 +9,10 @@ plugins {
 }
 
 kotlin {
-    iosX64()
-    iosArm64()
-    iosSimulatorArm64()
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+       browser()
+    }
     
     androidTarget {
         compilations.all {
@@ -18,6 +21,10 @@ kotlin {
             }
         }
     }
+    
+    iosX64()
+    iosArm64()
+    iosSimulatorArm64()
     
     jvm()
     

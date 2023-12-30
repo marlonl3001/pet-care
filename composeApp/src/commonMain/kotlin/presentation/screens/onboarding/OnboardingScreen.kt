@@ -54,7 +54,7 @@ import ui.theme.buttonBackgroundColor
 import ui.theme.descriptionColor
 import ui.theme.inactiveIndicatorColor
 import ui.theme.titleColor
-import util.Constants.LAST_ONBOARDING_PAGE
+import Constants.LAST_ONBOARDING_PAGE
 
 @Composable
 fun OnboardingScreen(navigator: Navigator) {

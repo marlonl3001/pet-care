@@ -13,7 +13,7 @@ import presentation.screens.splash.SplashScreen
 fun SetupNavGraph(navigator: Navigator) {
     NavHost(
         navigator = navigator,
-        initialRoute = Screen.PetDetail.route) {
+        initialRoute = Screen.Splash.route) {
         scene(route = Screen.Splash.route) {
             SplashScreen(navigator = navigator)
         }
@@ -27,6 +27,9 @@ fun SetupNavGraph(navigator: Navigator) {
             HomeScreen(navigator = navigator)
         }
         scene(route = Screen.PetDetail.route) {
+            PetDetailScreen(navigator = navigator)
+        }
+        scene(route = Screen.PetDetailMenu.route) {
             PetDetailScreen(navigator = navigator)
         }
     }
